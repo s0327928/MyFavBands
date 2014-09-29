@@ -1,0 +1,518 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DB6FAB2719D90C7B003B5E57 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB6FAB2619D90C7B003B5E57 /* Foundation.framework */; };
+		DB6FAB2919D90C7B003B5E57 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB6FAB2819D90C7B003B5E57 /* CoreGraphics.framework */; };
+		DB6FAB2B19D90C7B003B5E57 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB6FAB2A19D90C7B003B5E57 /* UIKit.framework */; };
+		DB6FAB3119D90C7B003B5E57 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DB6FAB2F19D90C7B003B5E57 /* InfoPlist.strings */; };
+		DB6FAB3319D90C7B003B5E57 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DB6FAB3219D90C7B003B5E57 /* main.m */; };
+		DB6FAB3719D90C7B003B5E57 /* MyFavBandsAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DB6FAB3619D90C7B003B5E57 /* MyFavBandsAppDelegate.m */; };
+		DB6FAB3A19D90C7B003B5E57 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB6FAB3819D90C7B003B5E57 /* Main.storyboard */; };
+		DB6FAB3D19D90C7B003B5E57 /* MyFavBandsMasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB6FAB3C19D90C7B003B5E57 /* MyFavBandsMasterViewController.m */; };
+		DB6FAB4019D90C7B003B5E57 /* MyFavBandsDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB6FAB3F19D90C7B003B5E57 /* MyFavBandsDetailViewController.m */; };
+		DB6FAB4219D90C7B003B5E57 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB6FAB4119D90C7B003B5E57 /* Images.xcassets */; };
+		DB6FAB4919D90C7B003B5E57 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB6FAB4819D90C7B003B5E57 /* XCTest.framework */; };
+		DB6FAB4A19D90C7B003B5E57 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB6FAB2619D90C7B003B5E57 /* Foundation.framework */; };
+		DB6FAB4B19D90C7C003B5E57 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB6FAB2A19D90C7B003B5E57 /* UIKit.framework */; };
+		DB6FAB5319D90C7C003B5E57 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DB6FAB5119D90C7C003B5E57 /* InfoPlist.strings */; };
+		DB6FAB5519D90C7C003B5E57 /* MyFavBandsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DB6FAB5419D90C7C003B5E57 /* MyFavBandsTests.m */; };
+		DB6FAB6E19D917F1003B5E57 /* Bon Jovi.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DB6FAB6919D917F1003B5E57 /* Bon Jovi.jpg */; };
+		DB6FAB6F19D917F1003B5E57 /* Coldplay.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DB6FAB6A19D917F1003B5E57 /* Coldplay.jpg */; };
+		DB6FAB7019D917F1003B5E57 /* ELO.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DB6FAB6B19D917F1003B5E57 /* ELO.jpg */; };
+		DB6FAB7119D917F1003B5E57 /* Queen.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DB6FAB6C19D917F1003B5E57 /* Queen.jpg */; };
+		DB6FAB7219D917F1003B5E57 /* stevie wonder.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DB6FAB6D19D917F1003B5E57 /* stevie wonder.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DB6FAB4C19D90C7C003B5E57 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DB6FAB1B19D90C7B003B5E57 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DB6FAB2219D90C7B003B5E57;
+			remoteInfo = MyFavBands;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DB6FAB2319D90C7B003B5E57 /* MyFavBands.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyFavBands.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB6FAB2619D90C7B003B5E57 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		DB6FAB2819D90C7B003B5E57 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		DB6FAB2A19D90C7B003B5E57 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		DB6FAB2E19D90C7B003B5E57 /* MyFavBands-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MyFavBands-Info.plist"; sourceTree = "<group>"; };
+		DB6FAB3019D90C7B003B5E57 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DB6FAB3219D90C7B003B5E57 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DB6FAB3419D90C7B003B5E57 /* MyFavBands-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MyFavBands-Prefix.pch"; sourceTree = "<group>"; };
+		DB6FAB3519D90C7B003B5E57 /* MyFavBandsAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyFavBandsAppDelegate.h; sourceTree = "<group>"; };
+		DB6FAB3619D90C7B003B5E57 /* MyFavBandsAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyFavBandsAppDelegate.m; sourceTree = "<group>"; };
+		DB6FAB3919D90C7B003B5E57 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DB6FAB3B19D90C7B003B5E57 /* MyFavBandsMasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyFavBandsMasterViewController.h; sourceTree = "<group>"; };
+		DB6FAB3C19D90C7B003B5E57 /* MyFavBandsMasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyFavBandsMasterViewController.m; sourceTree = "<group>"; };
+		DB6FAB3E19D90C7B003B5E57 /* MyFavBandsDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyFavBandsDetailViewController.h; sourceTree = "<group>"; };
+		DB6FAB3F19D90C7B003B5E57 /* MyFavBandsDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyFavBandsDetailViewController.m; sourceTree = "<group>"; };
+		DB6FAB4119D90C7B003B5E57 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		DB6FAB4719D90C7B003B5E57 /* MyFavBandsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyFavBandsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB6FAB4819D90C7B003B5E57 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		DB6FAB5019D90C7C003B5E57 /* MyFavBandsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MyFavBandsTests-Info.plist"; sourceTree = "<group>"; };
+		DB6FAB5219D90C7C003B5E57 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DB6FAB5419D90C7C003B5E57 /* MyFavBandsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyFavBandsTests.m; sourceTree = "<group>"; };
+		DB6FAB6919D917F1003B5E57 /* Bon Jovi.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Bon Jovi.jpg"; sourceTree = "<group>"; };
+		DB6FAB6A19D917F1003B5E57 /* Coldplay.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Coldplay.jpg; sourceTree = "<group>"; };
+		DB6FAB6B19D917F1003B5E57 /* ELO.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ELO.jpg; sourceTree = "<group>"; };
+		DB6FAB6C19D917F1003B5E57 /* Queen.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Queen.jpg; sourceTree = "<group>"; };
+		DB6FAB6D19D917F1003B5E57 /* stevie wonder.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "stevie wonder.jpg"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DB6FAB2019D90C7B003B5E57 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB6FAB2919D90C7B003B5E57 /* CoreGraphics.framework in Frameworks */,
+				DB6FAB2B19D90C7B003B5E57 /* UIKit.framework in Frameworks */,
+				DB6FAB2719D90C7B003B5E57 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB6FAB4419D90C7B003B5E57 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB6FAB4919D90C7B003B5E57 /* XCTest.framework in Frameworks */,
+				DB6FAB4B19D90C7C003B5E57 /* UIKit.framework in Frameworks */,
+				DB6FAB4A19D90C7B003B5E57 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DB6FAB1A19D90C7B003B5E57 = {
+			isa = PBXGroup;
+			children = (
+				DB6FAB5E19D915F9003B5E57 /* Photos */,
+				DB6FAB2C19D90C7B003B5E57 /* MyFavBands */,
+				DB6FAB4E19D90C7C003B5E57 /* MyFavBandsTests */,
+				DB6FAB2519D90C7B003B5E57 /* Frameworks */,
+				DB6FAB2419D90C7B003B5E57 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DB6FAB2419D90C7B003B5E57 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DB6FAB2319D90C7B003B5E57 /* MyFavBands.app */,
+				DB6FAB4719D90C7B003B5E57 /* MyFavBandsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DB6FAB2519D90C7B003B5E57 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DB6FAB2619D90C7B003B5E57 /* Foundation.framework */,
+				DB6FAB2819D90C7B003B5E57 /* CoreGraphics.framework */,
+				DB6FAB2A19D90C7B003B5E57 /* UIKit.framework */,
+				DB6FAB4819D90C7B003B5E57 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DB6FAB2C19D90C7B003B5E57 /* MyFavBands */ = {
+			isa = PBXGroup;
+			children = (
+				DB6FAB7319D9194E003B5E57 /* iPad */,
+				DB6FAB3519D90C7B003B5E57 /* MyFavBandsAppDelegate.h */,
+				DB6FAB3619D90C7B003B5E57 /* MyFavBandsAppDelegate.m */,
+				DB6FAB3819D90C7B003B5E57 /* Main.storyboard */,
+				DB6FAB3B19D90C7B003B5E57 /* MyFavBandsMasterViewController.h */,
+				DB6FAB3C19D90C7B003B5E57 /* MyFavBandsMasterViewController.m */,
+				DB6FAB3E19D90C7B003B5E57 /* MyFavBandsDetailViewController.h */,
+				DB6FAB3F19D90C7B003B5E57 /* MyFavBandsDetailViewController.m */,
+				DB6FAB4119D90C7B003B5E57 /* Images.xcassets */,
+				DB6FAB2D19D90C7B003B5E57 /* Supporting Files */,
+			);
+			path = MyFavBands;
+			sourceTree = "<group>";
+		};
+		DB6FAB2D19D90C7B003B5E57 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DB6FAB2E19D90C7B003B5E57 /* MyFavBands-Info.plist */,
+				DB6FAB2F19D90C7B003B5E57 /* InfoPlist.strings */,
+				DB6FAB3219D90C7B003B5E57 /* main.m */,
+				DB6FAB3419D90C7B003B5E57 /* MyFavBands-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DB6FAB4E19D90C7C003B5E57 /* MyFavBandsTests */ = {
+			isa = PBXGroup;
+			children = (
+				DB6FAB5419D90C7C003B5E57 /* MyFavBandsTests.m */,
+				DB6FAB4F19D90C7C003B5E57 /* Supporting Files */,
+			);
+			path = MyFavBandsTests;
+			sourceTree = "<group>";
+		};
+		DB6FAB4F19D90C7C003B5E57 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DB6FAB5019D90C7C003B5E57 /* MyFavBandsTests-Info.plist */,
+				DB6FAB5119D90C7C003B5E57 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DB6FAB5E19D915F9003B5E57 /* Photos */ = {
+			isa = PBXGroup;
+			children = (
+				DB6FAB6919D917F1003B5E57 /* Bon Jovi.jpg */,
+				DB6FAB6A19D917F1003B5E57 /* Coldplay.jpg */,
+				DB6FAB6B19D917F1003B5E57 /* ELO.jpg */,
+				DB6FAB6C19D917F1003B5E57 /* Queen.jpg */,
+				DB6FAB6D19D917F1003B5E57 /* stevie wonder.jpg */,
+			);
+			name = Photos;
+			sourceTree = "<group>";
+		};
+		DB6FAB7319D9194E003B5E57 /* iPad */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = iPad;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DB6FAB2219D90C7B003B5E57 /* MyFavBands */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB6FAB5819D90C7C003B5E57 /* Build configuration list for PBXNativeTarget "MyFavBands" */;
+			buildPhases = (
+				DB6FAB1F19D90C7B003B5E57 /* Sources */,
+				DB6FAB2019D90C7B003B5E57 /* Frameworks */,
+				DB6FAB2119D90C7B003B5E57 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MyFavBands;
+			productName = MyFavBands;
+			productReference = DB6FAB2319D90C7B003B5E57 /* MyFavBands.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DB6FAB4619D90C7B003B5E57 /* MyFavBandsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB6FAB5B19D90C7C003B5E57 /* Build configuration list for PBXNativeTarget "MyFavBandsTests" */;
+			buildPhases = (
+				DB6FAB4319D90C7B003B5E57 /* Sources */,
+				DB6FAB4419D90C7B003B5E57 /* Frameworks */,
+				DB6FAB4519D90C7B003B5E57 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DB6FAB4D19D90C7C003B5E57 /* PBXTargetDependency */,
+			);
+			name = MyFavBandsTests;
+			productName = MyFavBandsTests;
+			productReference = DB6FAB4719D90C7B003B5E57 /* MyFavBandsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DB6FAB1B19D90C7B003B5E57 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = MyFavBands;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Levi Orsinger";
+				TargetAttributes = {
+					DB6FAB4619D90C7B003B5E57 = {
+						TestTargetID = DB6FAB2219D90C7B003B5E57;
+					};
+				};
+			};
+			buildConfigurationList = DB6FAB1E19D90C7B003B5E57 /* Build configuration list for PBXProject "MyFavBands" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DB6FAB1A19D90C7B003B5E57;
+			productRefGroup = DB6FAB2419D90C7B003B5E57 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DB6FAB2219D90C7B003B5E57 /* MyFavBands */,
+				DB6FAB4619D90C7B003B5E57 /* MyFavBandsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DB6FAB2119D90C7B003B5E57 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB6FAB7019D917F1003B5E57 /* ELO.jpg in Resources */,
+				DB6FAB4219D90C7B003B5E57 /* Images.xcassets in Resources */,
+				DB6FAB7119D917F1003B5E57 /* Queen.jpg in Resources */,
+				DB6FAB6F19D917F1003B5E57 /* Coldplay.jpg in Resources */,
+				DB6FAB3119D90C7B003B5E57 /* InfoPlist.strings in Resources */,
+				DB6FAB6E19D917F1003B5E57 /* Bon Jovi.jpg in Resources */,
+				DB6FAB3A19D90C7B003B5E57 /* Main.storyboard in Resources */,
+				DB6FAB7219D917F1003B5E57 /* stevie wonder.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB6FAB4519D90C7B003B5E57 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB6FAB5319D90C7C003B5E57 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DB6FAB1F19D90C7B003B5E57 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB6FAB4019D90C7B003B5E57 /* MyFavBandsDetailViewController.m in Sources */,
+				DB6FAB3D19D90C7B003B5E57 /* MyFavBandsMasterViewController.m in Sources */,
+				DB6FAB3319D90C7B003B5E57 /* main.m in Sources */,
+				DB6FAB3719D90C7B003B5E57 /* MyFavBandsAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB6FAB4319D90C7B003B5E57 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB6FAB5519D90C7C003B5E57 /* MyFavBandsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DB6FAB4D19D90C7C003B5E57 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DB6FAB2219D90C7B003B5E57 /* MyFavBands */;
+			targetProxy = DB6FAB4C19D90C7C003B5E57 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DB6FAB2F19D90C7B003B5E57 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DB6FAB3019D90C7B003B5E57 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		DB6FAB3819D90C7B003B5E57 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DB6FAB3919D90C7B003B5E57 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DB6FAB5119D90C7C003B5E57 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DB6FAB5219D90C7C003B5E57 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DB6FAB5619D90C7C003B5E57 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DB6FAB5719D90C7C003B5E57 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DB6FAB5919D90C7C003B5E57 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MyFavBands/MyFavBands-Prefix.pch";
+				INFOPLIST_FILE = "MyFavBands/MyFavBands-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		DB6FAB5A19D90C7C003B5E57 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MyFavBands/MyFavBands-Prefix.pch";
+				INFOPLIST_FILE = "MyFavBands/MyFavBands-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		DB6FAB5C19D90C7C003B5E57 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MyFavBands.app/MyFavBands";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MyFavBands/MyFavBands-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "MyFavBandsTests/MyFavBandsTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		DB6FAB5D19D90C7C003B5E57 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MyFavBands.app/MyFavBands";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MyFavBands/MyFavBands-Prefix.pch";
+				INFOPLIST_FILE = "MyFavBandsTests/MyFavBandsTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DB6FAB1E19D90C7B003B5E57 /* Build configuration list for PBXProject "MyFavBands" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB6FAB5619D90C7C003B5E57 /* Debug */,
+				DB6FAB5719D90C7C003B5E57 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DB6FAB5819D90C7C003B5E57 /* Build configuration list for PBXNativeTarget "MyFavBands" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB6FAB5919D90C7C003B5E57 /* Debug */,
+				DB6FAB5A19D90C7C003B5E57 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DB6FAB5B19D90C7C003B5E57 /* Build configuration list for PBXNativeTarget "MyFavBandsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB6FAB5C19D90C7C003B5E57 /* Debug */,
+				DB6FAB5D19D90C7C003B5E57 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DB6FAB1B19D90C7B003B5E57 /* Project object */;
+}
