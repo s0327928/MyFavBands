@@ -28,7 +28,7 @@
     [super viewDidLoad];
 	
     self.title = @"My Favorite Bands";
-    NSArray *listArray = [[NSArray alloc] initWithObjects:@"Bon Jovi",@"Coldplay",@"ELO",@"Queen",@"Stevie Wonder", nil];
+    NSArray *listArray = [[NSArray alloc] initWithObjects:@"Aerosmith",@"Bon Jovi",@"Cheap Trick",@"Coldplay",@"ELO",@"Kansas",@"Queen",@"R.E.M.",@"Stevie Wonder",@"U2", nil];
     list = listArray;
 }
 

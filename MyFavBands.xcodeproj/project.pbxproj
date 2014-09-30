@@ -27,6 +27,11 @@
 		DB6FAB7019D917F1003B5E57 /* ELO.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DB6FAB6B19D917F1003B5E57 /* ELO.jpg */; };
 		DB6FAB7119D917F1003B5E57 /* Queen.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DB6FAB6C19D917F1003B5E57 /* Queen.jpg */; };
 		DB6FAB7219D917F1003B5E57 /* stevie wonder.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DB6FAB6D19D917F1003B5E57 /* stevie wonder.jpg */; };
+		DB9F6B0C19DA52EE00E3FDC0 /* Aerosmith.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DB9F6B0719DA52EE00E3FDC0 /* Aerosmith.jpg */; };
+		DB9F6B0D19DA52EE00E3FDC0 /* cheap trick.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DB9F6B0819DA52EE00E3FDC0 /* cheap trick.jpg */; };
+		DB9F6B0E19DA52EE00E3FDC0 /* Kansas.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DB9F6B0919DA52EE00E3FDC0 /* Kansas.jpg */; };
+		DB9F6B0F19DA52EE00E3FDC0 /* R.E.M..jpg in Resources */ = {isa = PBXBuildFile; fileRef = DB9F6B0A19DA52EE00E3FDC0 /* R.E.M..jpg */; };
+		DB9F6B1019DA52EE00E3FDC0 /* u2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DB9F6B0B19DA52EE00E3FDC0 /* u2.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -66,6 +71,11 @@
 		DB6FAB6B19D917F1003B5E57 /* ELO.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ELO.jpg; sourceTree = "<group>"; };
 		DB6FAB6C19D917F1003B5E57 /* Queen.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Queen.jpg; sourceTree = "<group>"; };
 		DB6FAB6D19D917F1003B5E57 /* stevie wonder.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "stevie wonder.jpg"; sourceTree = "<group>"; };
+		DB9F6B0719DA52EE00E3FDC0 /* Aerosmith.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Aerosmith.jpg; sourceTree = "<group>"; };
+		DB9F6B0819DA52EE00E3FDC0 /* cheap trick.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "cheap trick.jpg"; sourceTree = "<group>"; };
+		DB9F6B0919DA52EE00E3FDC0 /* Kansas.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Kansas.jpg; sourceTree = "<group>"; };
+		DB9F6B0A19DA52EE00E3FDC0 /* R.E.M..jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = R.E.M..jpg; sourceTree = "<group>"; };
+		DB9F6B0B19DA52EE00E3FDC0 /* u2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = u2.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -172,6 +182,11 @@
 		DB6FAB5E19D915F9003B5E57 /* Photos */ = {
 			isa = PBXGroup;
 			children = (
+				DB9F6B0719DA52EE00E3FDC0 /* Aerosmith.jpg */,
+				DB9F6B0819DA52EE00E3FDC0 /* cheap trick.jpg */,
+				DB9F6B0919DA52EE00E3FDC0 /* Kansas.jpg */,
+				DB9F6B0A19DA52EE00E3FDC0 /* R.E.M..jpg */,
+				DB9F6B0B19DA52EE00E3FDC0 /* u2.jpg */,
 				DB6FAB6919D917F1003B5E57 /* Bon Jovi.jpg */,
 				DB6FAB6A19D917F1003B5E57 /* Coldplay.jpg */,
 				DB6FAB6B19D917F1003B5E57 /* ELO.jpg */,
@@ -265,10 +280,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DB9F6B1019DA52EE00E3FDC0 /* u2.jpg in Resources */,
+				DB9F6B0D19DA52EE00E3FDC0 /* cheap trick.jpg in Resources */,
 				DB6FAB7019D917F1003B5E57 /* ELO.jpg in Resources */,
+				DB9F6B0E19DA52EE00E3FDC0 /* Kansas.jpg in Resources */,
 				DB6FAB4219D90C7B003B5E57 /* Images.xcassets in Resources */,
 				DB6FAB7119D917F1003B5E57 /* Queen.jpg in Resources */,
+				DB9F6B0C19DA52EE00E3FDC0 /* Aerosmith.jpg in Resources */,
 				DB6FAB6F19D917F1003B5E57 /* Coldplay.jpg in Resources */,
+				DB9F6B0F19DA52EE00E3FDC0 /* R.E.M..jpg in Resources */,
 				DB6FAB3119D90C7B003B5E57 /* InfoPlist.strings in Resources */,
 				DB6FAB6E19D917F1003B5E57 /* Bon Jovi.jpg in Resources */,
 				DB6FAB3A19D90C7B003B5E57 /* Main.storyboard in Resources */,
@@ -503,6 +523,7 @@
 				DB6FAB5A19D90C7C003B5E57 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DB6FAB5B19D90C7C003B5E57 /* Build configuration list for PBXNativeTarget "MyFavBandsTests" */ = {
 			isa = XCConfigurationList;
@@ -511,6 +532,7 @@
 				DB6FAB5D19D90C7C003B5E57 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
